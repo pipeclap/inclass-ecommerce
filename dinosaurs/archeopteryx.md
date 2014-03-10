@@ -1,5 +1,9 @@
 ---
 category: dinosaur
+name: archeopteryx 
+time_period: Jurassic
+diet: Carnivore
+image: air-dinos/pteranodon.jpg
 ---
 
 The tyrannosaurus is the most fierce of all dinosaurs!
