@@ -25,3 +25,9 @@ bannertext: Dinosaurs Rock!
 	</div>
 
 </div>
+
+<ul>
+	{% for dino in site.pages %}
+	<li>{{dino.url}}</li>
+	{% endfor %}
+</ul>
