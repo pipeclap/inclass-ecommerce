@@ -1,4 +1,5 @@
 ---
+category: dinosaur
 ---
 
 The tyrannosaurus is the most fierce of all dinosaurs!

@@ -1,33 +1,22 @@
 ---
 layout: default
-title: Home
-meta: "Covering everything dinosaur-related: links, videos, photos, info."
-showbanner: yes
-bannertext: Dinosaurs Rock!
+title: Dinosaurs
+meta: All the dinosaurs that ever existed in the world.
 ---
-
-<h1>Dino 'R' Us</h1>
-<p> hadbfiuadbf hdjbfiuabvd fic jabdfuicabdc daiujb diajc iuda vcijhadkbcno</p>
-
 <div class="grid">
-
-	<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
-		{% include promo-small.html title="Promo 1" desc="Super-duper sale!" image="air-dinos/pteranodon.jpg" %}
+	<div class="unit unit-s-1 unit-m-1-2 unit-1-2-3">
+		<h1>Dinosaurs</h1>
 	</div>
-
-	<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
-		{% include promo-small.html title="Promo 2" desc="Amazing deal!" image="land-dinos/diplodocus.jpg" %}
+	<div class="unit unit-s-1 unit-m-1-2 unit-1-2-3">
+		<p>All the dinos jhnsdbvhjcvs</p>
 	</div>
-
-	<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
-		{% include promo-small.html title="Promo 3" desc="Fantastico!" image="air-dinos/rhamphorhynchus.jpg" %}
-
-	</div>
-
 </div>
+
 
 <ul>
 	{% for dino in site.pages %}
-	<li>{{dino.url}}</li>
+		{% if dino.category == 'dinosaur' %}
+			<li>{{dino.url}}</li>
+		{% endif %}
 	{% endfor %}
 </ul>
