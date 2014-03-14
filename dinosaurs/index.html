@@ -17,8 +17,10 @@ meta: All the dinosaurs that ever existed in the world.
 	{% for dino in site.pages %}
 		{% if dino.category == 'dinosaur' %}
 			<li>
-			<img src="{{site.baseurl}}/images/{{dino.image}}" alt="">
-				{{dino.name}}
+				<a href="{{dino.url}}">
+					<img src="{{site.baseurl}}/images/{{dino.image}}" alt="">
+					{{dino.name}}
+				</a>
 			</li>
 		{% endif %}
 	{% endfor %}

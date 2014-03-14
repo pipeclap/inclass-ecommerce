@@ -1,4 +1,5 @@
 ---
+layout: dinosaurs
 category: dinosaur
 name: archeopteryx 
 time_period: Jurassic
